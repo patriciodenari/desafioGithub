@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.box {
+    border-radius: 6px;
+    height: 80px;
+    width: 100px;
+    margin: 60px auto;
+}
+
+.box:hover {
+    transform: scale(2);
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box2 {
+    transition-property: all;
+    transition-duration: 4s;
+}
+
+.square1, .square2{
+    border-radius: 4px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+}
+
+.square1 {
+    background-color: blue;
+}
+
+.square2:hover {
+    background-color: yellow;
+    transform: translate(30px, 30px);
+    transition: all 3s;
+}
+
